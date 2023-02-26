@@ -1,4 +1,4 @@
-﻿using Interceptor_Wether.Service_Class;
+﻿using Interceptor_Wether.Classes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Interceptor_Wether.Interface
 {
-    interface IWeatherDataUpdateInterceptor
+    interface IWeatherInterceptor
     {
-        void OnWeatherDataUpdate(WeatherDataContext weatherData);
+        void interfaceUpdate(WeatherDataContext context);
     }
 }

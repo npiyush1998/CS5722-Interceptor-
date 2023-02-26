@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1831
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interceptor_Wether", "Interceptor_Wether\Interceptor_Wether.csproj", "{4CC3B11E-046C-4D32-B330-1639A64C7421}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interceptor_WetherTests", "Interceptor_WetherTests\Interceptor_WetherTests.csproj", "{F71D6FFE-5BEB-4156-BECB-487CA563C99B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4CC3B11E-046C-4D32-B330-1639A64C7421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CC3B11E-046C-4D32-B330-1639A64C7421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CC3B11E-046C-4D32-B330-1639A64C7421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71D6FFE-5BEB-4156-BECB-487CA563C99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71D6FFE-5BEB-4156-BECB-487CA563C99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71D6FFE-5BEB-4156-BECB-487CA563C99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71D6FFE-5BEB-4156-BECB-487CA563C99B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

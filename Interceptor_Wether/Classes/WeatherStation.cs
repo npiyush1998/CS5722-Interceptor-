@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Interceptor_Wether.Service_Class
+namespace Interceptor_Wether.Classes
 {
     class WeatherStation
     {

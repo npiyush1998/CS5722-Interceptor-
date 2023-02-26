@@ -43,15 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Interface\IWeatherDataUpdateDispatcher.cs" />
-    <Compile Include="Interface\IWeatherDataUpdateInterceptor.cs" />
+    <Compile Include="Classes\Framework.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Interface\IWeatherDispatcher.cs" />
+    <Compile Include="Interface\IWeatherInterceptor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service Class\Display.cs" />
-    <Compile Include="Service Class\LoggingWeatherDataUpdateInterceptor .cs" />
-    <Compile Include="Service Class\WeatherDataContext.cs" />
-    <Compile Include="Service Class\WeatherDataUpdateDispatcherImpl .cs" />
-    <Compile Include="Service Class\WeatherStation.cs" />
+    <Compile Include="Classes\Display.cs" />
+    <Compile Include="Classes\WeatherInterceptor.cs" />
+    <Compile Include="Classes\WeatherDataContext.cs" />
+    <Compile Include="Classes\WeatherDIspatcher.cs" />
+    <Compile Include="Classes\WeatherStation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
